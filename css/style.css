@@ -26,10 +26,66 @@ nav {
 
 /* Bildschirmgrosse */
 
+.content img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        display: block;
+    }
+
+  .content1 img,
+    .content2 img,
+    .content3 img{
+     
+        width: 70%;
+        height: 70%;
+        object-fit: cover;
+        border-radius: 1em;
 
 
+    }
+.content1 div
+{
+   flex: 1;
+}
+.content1,
+    .content2,
+    .content3 {
+        display: flex;
+        justify-content: space-between;
+           align-items: center; 
+        padding: 1.5em;
+        gap: 1em;
+      
 
 
+    }
+
+    .content1 p,
+    .content2 p,
+    .content3 p {
+         font-size: 180%;
+        text-align: justify;
+    }
+
+    footer {
+        background-color: #ebee6a;
+        padding: 0.4em 0.4em;
+        text-align: center;
+    }
+    .content4
+    {
+           display: flex;
+           flex-direction: column;
+            text-align: center;
+    }
+        .content4 img 
+    {
+             width: 60%;
+        height: 50%;
+        object-fit: cover;
+        border-radius: 1em;
+    }
 
 
 /* handy */
@@ -81,6 +137,7 @@ nav {
     .content1 p,
     .content2 p,
     .content3 p {
+         font-size: 80%;
         text-align: justify;
     }
 
@@ -97,8 +154,8 @@ nav {
     }
         .content4 img 
     {
-             width: 20em;
-        height: 10em;
+         width: 70%;
+        height: 40%;
         object-fit: cover;
         border-radius: 1em;
     }
