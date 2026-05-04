@@ -6,14 +6,19 @@ body {
 nav {
     display: flex;
     align-items: center;
+     justify-content: space-between;
     padding: 0.5em 1em;
-    background-color: #ebee6a;
+    background-color: #2C3E50;
     list-style: none;
 }
-
+.logo-menu img
+{
+    width: 80%;
+    height: auto; 
+}
 .menu a {
     text-decoration: none;
-    color: black;
+    color: #ECF0F1;
     font-size: 1.2em;
     padding: 0.3em 0.2em;
 
@@ -41,6 +46,7 @@ nav {
         height: 70%;
         object-fit: cover;
         border-radius: 1em;
+        border: 1px solid #D1C7BD;
 
 
     }
@@ -66,10 +72,11 @@ nav {
     .content3 p {
          font-size: 180%;
         text-align: justify;
+        color: #333333;
     }
 
     footer {
-        background-color: #ebee6a;
+        background-color: #2C3E50;
         padding: 0.4em 0.4em;
         text-align: center;
     }
@@ -94,7 +101,11 @@ nav {
     .burger-icon {
         display: block;
     }
-
+.logo-menu img
+{
+    width: 50%;
+    height: auto; 
+}
     nav {
         justify-content: space-between;
     }
@@ -117,7 +128,7 @@ nav {
         height: 10em;
         object-fit: cover;
         border-radius: 1em;
-
+   border: 1px solid #D1C7BD;
 
     }
 
@@ -137,12 +148,13 @@ nav {
     .content1 p,
     .content2 p,
     .content3 p {
+         color: #333333;
          font-size: 80%;
         text-align: justify;
     }
 
     footer {
-        background-color: #ebee6a;
+        background-color: #2C3E50;
         padding: 0.4em 0.4em;
         text-align: center;
     }
